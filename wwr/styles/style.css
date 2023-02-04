@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap')
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -5,8 +7,9 @@
 
 nav a{
     text-align: center;
-    color: blue;
+    color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -32,12 +35,15 @@ main section{
 }
 
 body{
-    background-color: #fca311; 
+    background-color: white; 
     color: black;
+    font-family: "Roboto", "Helvetica", "sans-serif";
+    margin: 0;
+    padding: 0;
 }
 
 header{
-    background-color: black;
+    background-color: grey;
     color: black;
 }
 
@@ -49,13 +55,21 @@ nav a:hover{
 
 .book{
     background-color: black;
-    color: yellow;
+    color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join{
     background-color: black;
-    color: yellow ;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -71,38 +85,50 @@ nav a:hover{
 }
 
 .msg{
-    background-color: lightgoldenrodyellow;
-    color: black;
+    background-color: grey;
+    color: white;
+    padding: 35px;
+    line-height: 1.5em;
+
 }
 
 footer{
-    background-color: black;
-    color: yellow;
+    background-color: grey;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title{
-    background-color: lightgoldenrodyellow;
-    color: black;
+    background-color: grey;
+    color: white;
+    font-family: 'Rock Salt', 'Oswald', "Ubuntu";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
-    background-color: lightgoldenrodyellow;
-    color: black;
+background-color: grey;
+    color: white;
 }
 
 .msg h2{
-    background-color: lightgoldenrodyellow;
-    color: black;
+    background-color: grey;
+    color: white;
+    font-family: 'Rock Salt', 'Oswald', "Ubuntu";
+    line-height: 1.5em;
 }
 
 .msg p{
-    background-color: lightgoldenrodyellow;
-    color: black;
+    background-color: grey;
+    color: wh;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a{
-    background-color: black;
-    color: blue;
+    background-color: grey;
+    color: white;
     text-decoration: none;
 
 }
@@ -121,6 +147,7 @@ footer a:hover{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -133,4 +160,39 @@ footer p{
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+
+h2{
+    margin: 0;
+}
+
+
+#logo-link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card{
+   margin: 200px 0;
+}
+
+
+.camping-card{
+    margin: 200px 0;
+} 
+
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid grey;
+}
+main section img {
+    box-sizing: border-box;
 }
