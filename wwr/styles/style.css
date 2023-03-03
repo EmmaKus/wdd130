@@ -27,6 +27,10 @@ nav a{
 
 }
 
+#hero-img{
+    width: 100%;
+}
+
 
 #hero-box{
     grid-column: 1/4;
@@ -98,6 +102,13 @@ nav a:hover{
     border-radius: 5px;
 }
 
+.book:hover{
+    background-color: yellow;
+    color: red;
+    text-decoration: underline;
+}
+
+
 .join{
     background-color: black;
     color: white;
@@ -107,11 +118,6 @@ nav a:hover{
     border-radius: 5px;
 }
 
-.book:hover{
-    background-color: yellow;
-    color: red;
-    text-decoration: underline;
-}
 
 .join:hover{
     background-color: yellow;
@@ -126,7 +132,7 @@ nav a:hover{
     line-height: 1.5em;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    
 }
 
 
@@ -201,9 +207,6 @@ footer a:hover{
     padding-top: 10px;
 }
 
-#hero-img{
-    width: 100%;
-}
 
 footer p{
     font-size: 1.2em;
@@ -289,6 +292,114 @@ main section img {
 
 
 
+
+
+/* New CSS Page layout for Page2 */
+
+#hero1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#hero1-img{
+    width: 100%;
+
+}
+
+
+#hero-box1 {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-msg1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    
+}
+
+#hero-msg1 h1{
+    text-align: center;
+}
+
+
+#home-title{
+    background-color: grey;
+    color: white;
+    font-family: 'Rock Salt', 'Oswald', "Ubuntu";
+    font-size: 2em;
+    margin-top: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+
+.book1{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.book1:hover{
+    background-color: grey;
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+
+
+.msg-FAQs{
+    background-color: grey;
+    padding: 50px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    
+}
+
+
+ 
+
+
+.body1 h2 , .body1 h3, .body1 h4 {
+    color: black;
+    background: none;
+}
+
+.body1 p {
+    padding-right: 300px;
+    line-height: 1.5em;
+    text-align: justify;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -330,3 +441,5 @@ main section img {
         margin-top: 25px;
     }
 }
+
+
