@@ -1,0 +1,34 @@
+/* CSS style for Homepage*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Permanent+Marker&family=Roboto:wght@100&family=Rock+Salt&display=swap');
+
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+
+}
+
+#hero-img{
+    width: 100%;
+}
+
