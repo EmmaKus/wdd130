@@ -23,58 +23,69 @@
                 <a class="na" href="index.html">Home</a>
             </nav>
         </header>
-        <div id="hero">
-            <div id="hero-box">
-                <img id="hero-img" src="images/happy_employer.jpg" alt="My page background">
+        <div id="hero1">
+            <div id="hero-box1">
+                <img id="hero-img1" src="images/happy_employer.jpg" alt="My page background">
             </div>
-            <section id="hero-msg">
-                <h1 class="home-title">CONTACT US</h1>
+            <section id="hero-msg1">
+                <h1 class="home-title1">CONTACT US</h1>
             </section>
         </div>
 
-        <main class="home-grid">
-            <div class="ceo">
-                <img src="images/president.jpg" alt="">
-                <h4>Emmanuel Kusorgbor</h4>
-                <p>President</p>
-                <p><a href="contactus.html">
-                        <h4>Contact</h4>
-                    </a></p>
+        <main class="home-grid1">
+            <div id="ceo">
+                <div class="my-img">
+                    <img src="images/president.jpg" alt="">
+                </div>
+                <div class="cont1">
+                    <h3>Emmanuel Kusorgbor</h3>
+                    <p>President</p>
+                    <a href="contactus.html"><h4>Contact</h4></a>
+                </div>
             </div>
+
+
+
 
             <div class="contact">
                 <h3>Email Us</h3>
-                <p>For general inquiries, please email <a href="contactus.html">kusorgbor.emmanuel01@gmail.com </a>
+                <p>For general inquiries, please email <br>
+                     <a href="contactus.html">kusorgbor.emmanuel01@gmail.com </a>
                     or submit a comment:</p>
 
                 <div id="feedback">
                     <form action="/my-handling-form-page" method="post">
-                        <div>
-                            <label for="name">First Name:</label>
-                                <input type="text" id="name" name="user_name" 
-                                    required />
-                        </div>
+                        <div class="details">
+                            <div>
+                                <label for="name">First Name:</label>
+                                    <input type="text" id="name" name="user_name" 
+                                        required />
 
-                        <div>
-                            <label for="mail">Email:</label>
-                                <input type="email" id="mail" name="user_email" 
-                                    required />
-                        </div>
-                                
-                        <div>
-                            <label for="msg">Type your message here:</label>
-                                <textarea id="msg" name="user_message" 
-                                    required></textarea>
-                        </div>
+                                <label for="name">Last Name:</label>
+                                    <input type="text" id="name" name="user_name" 
+                                        required />
+                            </div>
 
-                        <div class="button">
-                            <button type="submit">Send your message</button>
+                            <div class="your-email">
+                                <label for="mail">Email:</label>
+                                    <input type="email" id="mail" name="user_email" 
+                                        required />
+                            </div>
+                                    
+                            <div class="your-msg">
+                                <label for="msg">Type your message here:</label>
+                                    <textarea id="msg" name="user_message" 
+                                        required></textarea>
+                            </div>
+
+                            <div class="button">
+                                <button type="submit">Submit</button>
+                            </div>
                         </div>
                     </form>
 
                 </div>
             </div>
-
         </main>
         <footer>
             <div>
