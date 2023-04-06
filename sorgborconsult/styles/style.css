@@ -247,16 +247,6 @@ nav #para:hover {
     gap: 400px;
 }
   
-.grow1 { 
-    flex-grow: 1; 
-    margin-left: 12px;
-    
-}
-
-
-.grow1-cont p {
-    margin-top: -70px;
-}
 
 
 
@@ -296,37 +286,23 @@ footer .logo {
 }
 
 
-
-
-.contact-p {
-    color: black;
+.grow1 { 
+    flex-grow: 1; 
+    margin-left: 12px;
     
-
-} 
-
-
-.contact-p:hover{
-    color: blue;
-    text-decoration: underline;
 }
 
 
+.grow1-cont h4 {
+    color: black;
+    margin-top: -50px;
+} 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.grow1-cont h4:hover{
+    color: blue;
+    text-decoration: underline;
+}
 
 
 
@@ -641,7 +617,6 @@ footer .logo {
 
 .contact p {
     margin-left: 30px;
-    /* text-align: center; */
 }
 
 
