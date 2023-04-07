@@ -75,7 +75,6 @@ nav #para:hover {
 #hero-img {
     width: 100%;
     height: 20rem;
-    max-width: 100%;
 }
 
 #hero-box{
@@ -206,12 +205,12 @@ nav #para:hover {
     grid-row: 3/5;
     box-shadow: 10px 10px 20px black;
     height: 300px;
+    max-width: ;
 }
 
 .grp-img {
     max-width:700px;
     height: 510px;
-    
 }
 
 .msg {
@@ -311,8 +310,21 @@ footer .logo {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* CSS style for Sub-Page1*/
 
+/* img {
+    max-width: 100%;
+} */
 
 .one {
     text-align: center;
@@ -341,6 +353,7 @@ footer .logo {
     /* max-width: 700px; 
     margin-left: 40px;  
     height: 90px; */
+    
 
 }
 
@@ -353,7 +366,7 @@ footer .logo {
     /* max-width: 700px; 
     margin-right: 40px;
     height: 90px; */
-
+    
 } 
 
 .parent .four {
@@ -366,6 +379,7 @@ footer .logo {
     /* max-width: 700px; 
     margin-left: 40px;
     height: 90px;  */
+   
     
 } 
 
@@ -379,6 +393,7 @@ footer .logo {
     /* max-width: 700px; 
     margin-right: 40px;
     height: 115px; */
+
 } 
 
 
@@ -392,6 +407,7 @@ footer .logo {
     /* max-width: 700px; 
     margin-right: 40px; 
     height: 115px; */
+   
 } 
 
 .parent .seven {
@@ -403,6 +419,7 @@ footer .logo {
     /* max-width: 700px; 
     height: 210px;
     margin-left: 40px; */
+    
 
 }  
 
@@ -416,11 +433,14 @@ footer .logo {
     margin-bottom: 300px;
     margin-top: -100px; */
     border: 2px solid black;
+    max-width: 100%;
+    
 } 
 
 .parent .eight p {
-    margin-top: -100px;
+    /* margin-top: -100px; */
     color: whitesmoke
+    
 }
 
 .parent div {
@@ -480,6 +500,8 @@ footer .logo {
     box-shadow: 10px 10px 30px black;
     transition: transform .5s;
     max-width: 100%;
+    
+    
 
 }
 
@@ -520,14 +542,12 @@ footer .logo {
 
 #hero-img1 {
     background-image: url("happy-employer.jpg");
-    max-width: 100%;
 }
 
 
 #hero-img1 {
-    /* width: 100%; */
+    width: 100%;
     height: 100%;
-    max-width: 100%;
 }
 
 
@@ -568,7 +588,6 @@ footer .logo {
 .my-img {
     margin-top: 20px;
     text-align: center;
-    max-width: 100%;
     
 }   
 
@@ -713,7 +732,6 @@ footer .logo {
         display: block;
         margin: 0 auto;
     }
-
     footer {
-        margin-top: 25px;
+        margin-top: 25px; 
     }
